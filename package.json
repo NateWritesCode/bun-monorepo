@@ -1,0 +1,15 @@
+{
+  "name": "bun-monorepo",
+  "license": "MIT",
+  "version": "0.0.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^1.4.1",
+    "bun-types": "latest",
+    "zod": "^3.22.4"
+  }
+}

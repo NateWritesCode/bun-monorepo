@@ -1,0 +1,25 @@
+{
+   "version": "2.0.0",
+   "tasks": [
+      {
+         "label": "all",
+         "type": "shell",
+         "command": "bash scripts/all-format.sh && bash scripts/all-lint.sh && bash scripts/all-test.sh"
+      },
+      {
+         "label": "all:format",
+         "type": "shell",
+         "command": "bash scripts/all-format.sh"
+      },
+      {
+         "label": "all:lint",
+         "type": "shell",
+         "command": "bash scripts/all-lint.sh"
+      },
+      {
+         "label": "all:test",
+         "type": "shell",
+         "command": "bash scripts/all-test.sh"
+      }
+   ]
+}
