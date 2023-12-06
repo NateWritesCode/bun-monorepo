@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "biomejs.biome",
-        "oven.bun-vscode"
+        "oven.bun-vscode",
+        "ms-vscode-remote.remote-containers"
     ]
 }
